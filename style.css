@@ -233,6 +233,10 @@ footer i {
 	padding: 10px;
 }
 
+footer i:hover {
+	color: #ffae19;
+}
+
 /*GRID*/
 [class*="col-"] {
   width: 100%;
