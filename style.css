@@ -45,9 +45,9 @@ nav a {
 
 #menu>button {
 	float: right;
-	border-radius: 15% 30%;
-	height: 80px;
-	width: 80px;
+	border-radius: 5%;
+	height: 60px;
+	width: 100px;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 18px;
@@ -58,13 +58,10 @@ nav a {
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
 	color: #cbf457;
-	border: 2px solid #cbf457;
+	border: 1px solid #f2f2f2;
 	transition-property: border-radius;
   transition-duration: .7s;
   transition-timing-function: linear;
-  border-right-style: dotted;
-  border-bottom-style: solid;
-  border-left-style: dotted;
 }
 
 #menu>button:hover {
