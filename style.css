@@ -62,9 +62,9 @@ nav a {
 	transition-property: border-radius;
   transition-duration: .7s;
   transition-timing-function: linear;
-  border-right-style: none;
-  border-left-style: none;
-
+  border-right-style: dotted;
+  border-bottom-style: solid;
+  border-left-style: dotted;
 }
 
 #menu>button:hover {
