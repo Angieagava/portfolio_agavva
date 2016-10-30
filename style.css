@@ -60,14 +60,18 @@ nav a {
 	font-family: 'Dosis', sans-serif;
 	color: #cbf457;
 	border: 2px dotted #00688b;
+	transition-property: border-radius;
+  	transition-duration: 1s;
+  	transition-timing-function: linear;
 }
 
 #menu>button:hover {
 	background-color: white;
 	-webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  border: 5px;
+  	-ms-transform: scale(0.8);
+  	transform: scale(0.8);
+  	border: 5px;
+	border-radius: 50%;
  }
 
 #logo:hover {
