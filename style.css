@@ -60,7 +60,7 @@ nav a {
 	color: #cbf457;
 	border: 1px solid #00688b;
 	transition-property: border-radius;
-  transition-duration: 1s;
+  transition-duration: .7s;
   transition-timing-function: linear;
 }
 
@@ -118,8 +118,8 @@ nav a {
   text-align: center;
   height: 60px;
   width: 60px;
-  transition-property: border-radius;
-  transition-duration: 1s;
+  transition-property: background, border-radius;
+  transition-duration: .8s;
   transition-timing-function: linear;
 
 }
