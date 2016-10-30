@@ -123,6 +123,9 @@ nav a {
 .one:hover i {
   background-color: #cbf457;
   border-radius:50%;
+  transition-property: border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .one:hover h3 {
