@@ -315,7 +315,15 @@ footer i:hover {
     width: 100%;
     text-align: center;
   }
-  
+
+  #logo {
+    float: none;
+    margin: 5px;
+  }
+
+  #menu>button {
+    float: none;
+    
   label {display: block;}
   #menu-button:not(:checked) ~ul{display: none;}
   #menu-button:checked ~ ul {display: block;}
