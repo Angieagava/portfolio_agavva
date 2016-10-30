@@ -1,4 +1,3 @@
-
 *{
 	box-sizing: border-box;
   }
@@ -61,8 +60,8 @@ nav a {
 	color: #cbf457;
 	border: 1px dashed #00688b;
 	transition-property: border-radius;
-  	transition-duration: 1s;
-  	transition-timing-function: linear;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 #menu>button:hover {
