@@ -49,6 +49,11 @@ body {
 }
 
     /*BG ABOUT PAGE*/
+
+.bg0 {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}   
+
 .bg1 {
     background: #FFEFBA;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
