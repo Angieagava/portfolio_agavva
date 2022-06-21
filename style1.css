@@ -354,16 +354,16 @@ a.nav-link {
     color: var(--main-black-color);
     font-size: 1.2rem;
     text-transform: uppercase;
-    border: 2px solid transparent;
 }
 
 a.nav-link:hover,
 a.nav-link:focus {
-    color: var(--main-accent-color);
-    border: 2px solid var(--main-accent-color);
-    animation: pulse 1s infinite;
+    color: var(--main-black-color);
+    /*border: 2px solid var(--main-accent-color);
     transition: 1s;
-    border-radius: 50px;
+    border-radius: 50px;*/
+    transition: all 0.33s ease-out 0s;
+    box-shadow: 1px 1px 5px -1px;
 }
 
 a.logo {
@@ -378,15 +378,18 @@ a.logo {
 }
 
 .actives {
-    border: 2px solid var(--main-accent-color) !important;
-    border-radius: 50px;
+    /*border: 2px solid var(--main-accent-color) !important;
+    border-radius: 50px;*/
     font-weight: 500;
+    box-shadow: 1px 1px 5px -1px;
+    color: var(--main-black-color);
 }
 
 .actives:hover {
-    color: var(--main-accent-color) !important;
-    border-radius: 0;
-    transition: all 0.33s ease-out 0s
+    /*color: var(--main-accent-color) !important;
+    border-radius: 0;*/
+    transition: all 0.33s ease-out 0s;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
 }
 
 a.nav-link.food.text-center.activee {
