@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Foodpath">
+    <title>Foodpath</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/xx.ico">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--basic css-->
+    <link id="pagestyle" href="style1.css" rel="stylesheet" type="text/css" />
+    <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/511155ee61.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  </head>
+
+  <body class="d-flex h-100 bg7" >
+    <div class="container-fluid p-0">
+<!--header-->
+      <header class="sticky-top">
+<!--alpha nav-->
+        <div>
+          <nav class="nav nav-masthead justify-content-center float-md-middle p-4">
+            <a class="nav-link about" href="about.html" title="Get to know me"><img src="images/avv.svg" alt="icon"> About Me</a>
+            <a class="nav-link actives" href="case.html" title="My work" aria-current="page"><i class="fa-solid fa-briefcase"></i> Cases</a>
+            <a class="nav-link" target="_blank" title="My Behance Profile" href="https://www.behance.net/agawalter"><i class="fa-brands fa-behance-square"></i> Behance</a>
+            <a class="nav-link" target="_blank" title="My Linkedin Porfile" href="https://www.linkedin.com/in/agatawalter/"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+            <a class="nav-link" href="mailto:agavva.design@gmail.com" title="Contact Me"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+            <a class="nav-link" href="images/mycv.pdf" target="_blank" download><i class="fa-solid fa-file-arrow-down"></i> My CV</a>
+          </nav>
+        </div>
+<!--beta nav-->
+        <div>
+          <nav class="btn-group flex-wrap d-flex justify-content-between px-2 stickynav">
+            <div class="dropdown text-center">
+              <button class="btn logo2 dropdown-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/faviconsm.png" alt="logo"> Foodpath web
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="foodpathapp.html"><img src="images/faviconsm.png" alt="logo"> Foodpath app</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="shopest.html"><img src="images/shopest.ico" alt="logo"> Shopest</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="zsp.html"><img src="images/zsp.ico" alt="logo"> ZSP</a></li>
+              </ul>
+            </div>
+            <a class="btn step hover-1" href="#introduction">Introduction</a>
+            <a class="btn step hover-1" href="#process">Process</a>
+            <a class="btn step hover-1" href="#research">Research</a>
+            <a class="btn step hover-1" href="#design">Design Iterations</a>
+            <a class="btn step hover-1" href="#results">Results</a>
+          </nav>
+        </div>
+        <div id="progressBar"></div>
+      </header>
+<!--end of header-->      
+      <div id="introduction" class="margin-top margin-bottom"></div>
+<!--entry-->
+      <div class="container margin-top margin-bottom">
+
+        <!--about-->
+        <div class="row align-items-center">
+          <div class="col-md-6 col-sm-12">
+            <main class="px-3">
+              <h1 class="display-2">Foodpath</h1>
+              <h2 class="display-6">Restaurant Locator Webpage</h2>
+              <p class="lead">This webpage is a support for Foodpath mobile app.<br/>
+               It contains additional news, blog, restaurant information nad updates.
+              </p>
+            </main>
+          </div>
+          <div class="col-md-5 col-sm-12 foodpathw"><img src="images/search.png" alt="mockpic"></div>
+        </div>
+      </div>
+<!--role-->
+      <div class="container margin-top role">
+        <!--role-->
+        <div class="row align-items-center ">
+          <h3 class="text-center my-4">My role</h3>
+          <div class="col align-self-baseline">
+            <img src="images/research.svg" alt="icon">
+            <p>Research</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/wireframee.svg" alt="icon">
+            <p>Wireframe</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/flow.svg" alt="icon">
+            <p>User flow</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/design.svg" alt="icon">
+            <p>Design</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/prototype.svg" alt="icon">
+            <p>Prototype</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/coding.svg" alt="icon">
+            <p>Coding</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/satisfaction.svg" alt="icon">
+            <p>User testing</p>
+          </div>
+        </div>
+      </div>
+<!--tools-->
+      <div class="container margin-top tools">
+        <!--tools-->
+        <div class="row align-items-center ">
+          <h3 class="text-center my-4">Used tools</h3>
+          <div class="col align-self-baseline p-4">
+            <img src="images/googlesheet.png" alt="icon">
+            <p>Google sheets</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/photoshop.png" alt="icon">
+            <p>Photoshop</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/illustrator.png" alt="icon">
+            <p>Illustrator</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/figma.png" alt="icon">
+            <p>Figma</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/sublime.png" alt="icon">
+            <p>Sublime text</p>
+          </div>
+          <div class="col align-self-baseline p-4">
+            <img src="images/maze.png" alt="icon">
+            <p>Maze</p>
+          </div>
+        </div>
+      </div>
+<!--timeline-->
+      <div id="process" class="margin-top margin-bottom"></div>
+<!--process-->
+      <div class="container margin-top">
+        <h3 class="text-center my-4">Design Process</h3>
+        <div class="stepper-wrapper">
+          <div class="stepper-item completed">
+            <div class="step-counter">1</div>
+            <div class="step-name">Discovery</div>
+          </div>
+          <div class="stepper-item completed">
+            <div class="step-counter">2</div>
+            <div class="step-name">Definition</div>
+          </div>
+          <div class="stepper-item completed">
+            <div class="step-counter">3</div>
+            <div class="step-name">Ideation</div>
+          </div>
+          <div class="stepper-item completed">
+            <div class="step-counter">4</div>
+            <div class="step-name">Prototyping</div>
+          </div>
+          <div class="stepper-item completed">
+            <div class="step-counter">5</div>
+            <div class="step-name">Testing</div>
+          </div>
+        </div>
+      </div>
+<!--concept-->
+      <div class="container concept">
+        <div class="row align-items-center">
+          <div class="col p-4 h-100 text-center">
+            <h3 class="my-3">Concept</h3>
+            <p>Foodpath, name bases on idea of footpath -a path for people to walk along.</p>
+            <p>App's name results from the combination of “food” or “path”. </p>
+            <p>Foodpath is a concept for an iOS app designed to provide users with reliable and relatable restaurant recommendations.</p>
+            <p> It is a restaurant curation application that connects good food & people — allowing them to easily recommend a restaurant, get recommendations for any cuisine, and keep track of the places they love to eat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3>Business Goal for Restaurants</h3>
+        <p>Increase monthly sales</p>
+        <p>Increase daily sales</p>
+        <p>Improve revenue streams</p>
+        <p>Test new menu items</p>
+      </div>
+      <div>
+        <a href="https://angieagava.github.io/foodpath/" class="btn page text-center" target ="_blank" title="foodpath webpage on my github">Go to live webpage</a></div>
+<!--bottom gallery-->
+      <div class="container margin-top margin-bottom text-center">
+
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 box">
+              <div class="foodpathm card-img-top h-100"><img src="images/3views.png" alt="mockpic"></div>
+              <div class="card-body">               
+                  <h3 class="">FOODPATH MOBILE</h3>
+                  <p>Restaurant locator app</p>
+                  <p><small class="text-muted">2021/22</small></p>
+                  <a class="btn page element" href="foodpathapp.html">
+                    Show more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class=" card h-100 box">
+              <div class="foodpathw card-img-top h-100"><img src="images/blog0.png" alt="mockpic"></div>
+              <div class="card-body ">
+                  <h3 class="">FOODPATH WEBSITE</h3>
+                  <p>Website</p>
+                  <p><small class="text-muted">2022</small></p>
+                  <a class="btn page" href="foodpathpage.html">Show more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 box">
+              <div class=" shopest card-img-top h-100"><img src="images/shopest.png" alt="mockpic"></div>
+              <div class="card-body ">
+                  <h3 class="">SHOPEST WEBSITE</h3>
+                  <p>Website Redesign</p>
+                  <p><small class="text-muted">2018</small></p>
+                  <a class="btn page" href="shopest.html">Show more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card h-100 box">
+              <div class="zsp card-img-top h-100"><img src="images/zsp.png" alt="mockpic"></div>
+              <div class="card-body ">
+                  <h3 class="">ZSP / WCS WEBSITE</h3>
+                  <p>Coding School Website</p>
+                  <p><small class="text-muted">2017/18</small></p>
+                  <a class="btn page" href="zsp.html">Show more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--end of gallery-->
+    </div>
+    <script>
+            const body = document.body;
+            const documentElement = document.documentElement;
+            const progressBarEl = document.getElementById('progressBar');
+
+            const scrollTop = () => Math.max(body.scrollTop, documentElement.scrollTop);
+            const handleOnScroll = () => {
+              const scrollAmount = scrollTop() / (documentElement.scrollHeight - documentElement.clientHeight);
+              const scrollPercentage = Math.round(scrollAmount * 100);
+
+              progressBarEl.style.width = `${scrollPercentage}%`
+            };
+
+            window.addEventListener('scroll', handleOnScroll);
+
+            
+    </script>
+  </body>
+</html>
