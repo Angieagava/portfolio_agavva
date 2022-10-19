@@ -10,12 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="font/Wolf_in_the_City.otf">
+    <link href="font/Wolf_in_the_City.otf" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/xx.ico">
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!--basic css-->
-    <link id="pagestyle" href="style1.css" rel="stylesheet" type="text/css" />
+    <link id="pagestyle" href="style1.css" rel="stylesheet" type="text/css">
     <!--bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -25,12 +25,12 @@
     <script src="script.js"></script>
   </head>
 
-  <body class="d-flex h-100 text-center bg1" >
+  <body class="d-flex h-100 text-center bg6" >
     <div class="container-fluid p-0">
       <header class="sticky-top">
         <div>
           <nav class="nav nav-masthead justify-content-center float-md-middle p-4">
-            <a class="nav-link actives about" href="about.html" title="Get to know me"><img src="images/avv.svg"> About Me</a>
+            <a class="nav-link actives about" href="about.html" title="Get to know me"><img src="images/avv.svg" alt="mylogo"> About Me</a>
             <a class="nav-link" href="case.html" title="My work" aria-current="page"><i class="fa-solid fa-briefcase"></i> Cases</a>
             <a class="nav-link " target="_blank" title="My Behance Profile" href="https://www.behance.net/agawalter"><i class="fa-brands fa-behance-square"></i> Behance</a>
             <a class="nav-link" target="_blank" title="My Linkedin Porfile" href="https://www.linkedin.com/in/agatawalter/"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
@@ -43,16 +43,17 @@
 
       <div class="container-fluid margin-bottom margin-top box">
         <div class="row">
-          <div class="col-md-8 col-sm-12 mydescription overflow-auto scrollbar" id="scroll1" >
-            <h4 class="display-6">I.am.a.great.person! Really - I am!
+          <div class=" mydescription overflow-auto scrollbar" id="scroll1" >
+            <!--<h4 class="display-6">I.am.a.great.person! Really - I am!
              <i class="fa-solid fa-face-grin-beam"></i>
-            </h4>
+            </h4>-->
             <ul>
-              <li>When you work with me, you are making <strong> a good investment.</strong></li>
+              <li>Let's work <strong>together!</strong></li>
+              <li>Working with me is <strong> a good investment.</strong></li>
               <li><strong>Brainstorming</strong> ideas and solutions is my natural passion.</li>
               <li>I am a <strong>problem solver</strong>: I define, strategize, evaluate and look for alternative paths.</li>
               <li>My way of working is to <strong>understand</strong> you, your users, and the needs of the business.</li>
-              <li><strong>Research</strong> is the foundation of my work.</li>
+               <li><strong>Research</strong> is the foundation of my work.</li>
               <li>I think <strong>project documentation</strong> is the right way to go.</li>
               <li> I am mainly <strong> self-taught </strong>, with a little formal training.</li>
               <li>Of course, sometimes I had help - I was lucky to have some <strong>good mentors</strong>.</li>
@@ -60,36 +61,17 @@
               <li>I value <strong>feedback</strong> - the affirming, not the belittling.</li>
               <li>If you value me, I will help you develop <strong>good products</strong>.</li>
               <li>I like working alone and in teams - We all benefit from <strong>good teamwork</strong>.</li>
-              <li>I do not like stagnation - when I realize I am not getting anywhere,<br/> 
+              <li>Design and development is a<strong> team effort</strong>, unless you like pretty but useless products...</li>
+              <li>I do not like stagnation - when I realize I am not getting anywhere,<br> 
               I look for a <strong>solution</strong>, and that's how I have shifted my career path a few times.</li>
               <li>Each time to evolve and <strong>broaden my professional experience</strong>.</li>
               <li>Each time, I have <strong>started from scratch and built my experience from the ground up</strong>.</li>
               <li>I am always <strong>learning</strong>, there is always something new to learn.</li>
-              <li><strong>My goal</strong> is to gain a comprehensive <strong>understanding</strong> of how to<strong></strong><br/> develop a product: <strong>from idea to execution</strong>.</li>
+              <li><strong>My goal</strong> is to gain a comprehensive <strong>understanding</strong> of how to<strong></strong><br> develop a product: <strong>from idea to execution</strong>.</li>
             </ul>
             <p>More details about my work experience can be found below
-              <i class="fa-solid fa-circle-arrow-down"></i></p>
-
-
-<!--
-            <p>A graphic designer who started in print and product design,
-              later expanded the experience with front-end programming and UI & UX design; a can-do attitude, problem solver, proactive approach.</p>
-            <p>Interests: product design & project management.</p>
-            <ul>My path:
-              <li>Mix of customer service jobs</li>
-              <li>Industrial design studies at Westpomeranian University</li>
-              <li>Graphic designer at print shop</li>
-              <li>Intense coding bootcamp</li>
-              <li>Internship at e-commerce corporation</li>
-              <li>Startup creating an online portal - inner tools.</li>
-              <li>Small agile software company- multiple projects.</li>
-              <li>Big international corporation- administration position.</li>
-              <li>I'm a self learner - still mastering UI/UX way of thinking.</li>
-              <li>I'm getting better and better, but it's gonna be more fun with bigger targets working on different projects with skilled people.</li>
-            </ul>
- -->
-          </div>
-          <div class="col-md-4 col-sm-12 mypic animations" id="slide-in">
+              <a href="#process"><i class="fa-solid fa-circle-arrow-down"></i></a></p>
+              <div class="mypic" style="height:14rem;"></div>
           </div>
         </div>
       </div>
@@ -114,12 +96,12 @@
           <div class="stepper-item completed">
             <div class="step-counter">3</div>
             <div class="step-name">2017</div>
-            <div class="step-name">Internship<br /> Web developer</div>
+            <div class="step-name">Internship<br> Web developer</div>
           </div>
           <div class="stepper-item completed">
             <div class="step-counter">4</div>
             <div class="step-name">2017-9</div>
-            <div class="step-name">Front-end<br /> developer</div>
+            <div class="step-name">Front-end<br> developer</div>
           </div>
           <div class="stepper-item completed">
             <div class="step-counter">5</div>
@@ -268,7 +250,7 @@
       </div>
     </div>
 
-    <script type="text/javascript">
+    <script>
       const body = document.body;
       const documentElement = document.documentElement;
       const progressBarEl = document.getElementById('progressBar');

@@ -1,7 +1,7 @@
 /*put in html id="gradient"*/
 
 
-/*var colors = new Array(
+var colors = new Array(
   [62,35,255],
   [60,255,60],
   [255,35,98],
@@ -62,4 +62,3 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 
 setInterval(updateGradient,10);
 
-*/

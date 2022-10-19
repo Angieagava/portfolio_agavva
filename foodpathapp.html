@@ -14,7 +14,7 @@
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!--basic css-->
-    <link id="pagestyle" href="style1.css" rel="stylesheet" type="text/css" />
+    <link id="pagestyle" href="style1.css" rel="stylesheet" type="text/css">
     <!--bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -25,11 +25,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   </head>
 
-  <body class="d-flex h-100 bg6" >
+  <body class="d-flex h-100 bg6">
     <div class="container-fluid p-0">
-<!--header-->
+      <!--header-->
       <header class="sticky-top">
-<!--alpha nav-->
+        <!--alpha nav-->
         <div>
           <nav class="nav nav-masthead justify-content-center float-md-middle p-4">
             <a class="nav-link about" href="about.html" title="Get to know me"><img src="images/avv.svg" alt="mainlogo"> About Me</a>
@@ -37,10 +37,10 @@
             <a class="nav-link" target="_blank" title="My Behance Profile" href="https://www.behance.net/agawalter"><i class="fa-brands fa-behance-square"></i> Behance</a>
             <a class="nav-link" target="_blank" title="My Linkedin Porfile" href="https://www.linkedin.com/in/agatawalter/"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
             <a class="nav-link" href="mailto:agavva.design@gmail.com" title="Contact Me"><i class="fa-solid fa-envelope"></i> Contact Me</a>
-            <a class="nav-link" href="images/mycv.pdf" target="_blank" download><i class="fa-solid fa-file-arrow-down"></i> My CV</a>
+            <a class="nav-link" href="images/CV_Agata_Walter.pdf" target="_blank" download><i class="fa-solid fa-file-arrow-down"></i> My CV</a>
           </nav>
         </div>
-<!--beta nav-->
+        <!--beta nav-->
         <div>
           <nav class="btn-group flex-wrap d-flex justify-content-between px-2 stickynav" id="nav-beta">
             <div class="dropdown text-center">
@@ -49,45 +49,137 @@
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="foodpathpage.html"><img src="images/faviconsm.png" alt="logofoodpath"> Foodpath web</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dropdown-item" href="shopest.html"><img src="images/shopest.ico" alt="logoshopest"> Shopest</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dropdown-item" href="zsp.html"><img src="images/zsp.ico" alt="logozsp"> ZSP</a></li>
               </ul>
             </div>
             <a class="btn step hover-1" href="#introduction">Introduction</a>
             <a class="btn step hover-1" href="#process">Process</a>
             <a class="btn step hover-1" href="#research">Research</a>
-            <a class="btn step hover-1" href="#design">Design Iterations</a>
-            <a class="btn step hover-1" href="#results">Results</a>
+            <a class="btn step hover-1" href="#iterations">Design Iterations</a>
+            <a class="btn step hover-1" href="#conclusion">Conclusion</a>
           </nav>
         </div>
         <div id="progressBar"></div>
       </header>
 
-<!--end of header-->      
- 
-<!--entry-->
+      <!--end of header-->
+
+      <!--entry-->
+
       <div class="container margin-top margin-bottom" id="introduction">
 
         <!--about-->
-        <div class="row align-items-center">
+        <div class="row align-items-center text-center">
           <div class="col-md-6 col-sm-12">
             <main class="px-3">
               <h1 class="display-2">Foodpath</h1>
-              <h2 class="display-6">Restaurant Locator App</h2>
-              <p class="lead">Foodpath is a concept for an iOS geolocation-based app designed to provide users with honest, reliable and relatable nearby restaurant recommendations.
+              <h2 class="display-6">Improving the experience of eating out.</h2>
+              <p class="lead">Concept for a geolocation-based restaurant app designed to provide users with honest, reliable and relatable restaurant recommendations.
               </p>
             </main>
           </div>
-          <div class="col-md-6 col-sm-12 foodpathm "><img src="images/3views.png" alt="3views"></div>
+          <div class="col-md-6 col-sm-12 foodpathm "><img src="images/fpma/3views.png" alt="3views" title="mobile view"></div>
         </div>
       </div>
+
+      <!-- overview -->
+
+      <div class="overview margin-top margin-bottom text-center">
+        <h3 class="text-center my-4 display-6">Overview</h3>
+        <p>Application that connects good food & people <br>— easily get to a restaurant, get recommendations for any cuisine, and keep track of the places you love to eat.</p>
+        <img src="images/both.jpg" alt="bothjpg">
+      </div>
+
+      <!--features-->
+
+      <div class="container margin-top margin-bottom text-center">
+        <h3 class="my-3 display-6">Key features</h3>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img-top h-100">
+                <img src="images/fpma/darklocal.png" alt="localization" title="localization dark mode">
+              </div>
+              <div class="card-body">
+                <h3 class="">LOCALIZATION</h3>
+                <p>Search by location - geolocation-based search provides the option to find the nearest restaurants and create the shortest route to the chosen place.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img-top h-100">
+                <img src="images/fpma/pathh.png" alt="path" title="direction">
+              </div>
+              <div class="card-body ">
+                <h3 class="">EASY DIRECTION</h3>
+                <p>The app shows the distance and direction to the restaurant.</p>
+                <p>Google maps shows the road to the chosen destination.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img-top h-100">
+                <img src="images/fpma/foodch.png" alt="foodchoice" title="food choice">
+              </div>
+              <div class="card-body ">
+                <h3 class="">FOOD CHOICE</h3>
+                <p>Filtering on the basis of food, type, budget, diet restrictions, distance - filters help to narrow down the search.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img-top h-100">
+                <img src="images/fpma/darklogin.png" alt="login" title="dark mode login">
+              </div>
+              <div class="card-body ">
+                <h3 class="">LOGIN / SIGNUP</h3>
+                <p>User creates a profile by manualy setting the email address and password,
+                  or can log in/ sign up by Google or Facebook account</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img-top h-100">
+                <img src="images/fpma/restprof.png" alt="restaurantprofile" title="restaurant profile">
+              </div>
+              <div class="card-body ">
+                <h3 class="">RESTAURANT PROFILE</h3>
+                <p>List of available restaurants based on the food search & filters with restaurant profile information: type of food, menu, phone contact, opening hours, ratings</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img-top h-100">
+                <img src="images/fpma/infoo.png" alt="information" title="app info">
+              </div>
+              <div class="card-body ">
+                <h3 class="">APP INFORMATION</h3>
+                <p>Top corner app hamburger menu lets the user access all important main features and know-how information.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
 <!--role-->
+
       <div class="container margin-top role">
-        <!--role-->
         <div class="row align-items-center ">
-          <h3 class="text-center my-4">My role</h3>
+          <h3 class="text-center my-4 display-6">My role</h3>
           <div class="col align-self-baseline">
             <img src="images/research.svg" alt="researchicon">
             <p>Research</p>
@@ -118,11 +210,13 @@
           </div>
         </div>
       </div>
-<!--tools-->
+
+      <!--tools-->
+
       <div class="container margin-top tools">
         <!--tools-->
         <div class="row align-items-center ">
-          <h3 class="text-center my-4">Used tools</h3>
+          <h3 class="text-center my-4 display-6">Used tools</h3>
           <div class="col align-self-baseline p-4">
             <img src="images/googlesheet.png" alt="googleicon">
             <p>Google sheets</p>
@@ -149,11 +243,11 @@
           </div>
         </div>
       </div>
-<!--timeline-->
+      <!--timeline-->
       <div id="process" class="margin-top margin-bottom"></div>
-<!--process-->
+      <!--process-->
       <div class="container margin-top">
-        <h3 class="text-center my-4">Design Process</h3>
+        <h3 class="text-center my-4 display-6">Design Process</h3>
         <div class="stepper-wrapper">
           <div class="stepper-item completed">
             <div class="step-counter">1</div>
@@ -177,342 +271,667 @@
           </div>
         </div>
       </div>
-<!--concept-->
+      <!--concept-->
       <div class="container concept">
-        <div class="row align-items-center">
-          <div class="col p-4 h-100 text-center">
-            <h3 class="my-3">Concept</h3>
-            <p>
-              This is my passion project. Overall it is basing on solving my problem, but I didn't want to be focused just on me so I did a lot of research and user interviews to check if this is realistic problem for more people.
-              The problems I had:
-              <ul>
-                <li>I'm at a coligues place, it's late, most of restaurant are closing, we need to order food, but we don't know the neighbourhood</li>
-                <li>I'm on a short work trip, in a big city, many food places;I don't know where I can go, withing the walking distance of 5-10 minutes to eat good food now</li>
-                <li>I'm on a weekend private trip - I came for a conference, I booked a private apartment, so the fridge is empty and I really need to eat a breakfast before I'll go to the conference hall</li>
-                <li>I have a craving for very specific food, like pancakes & I don't want to look through all the mmenus to be sure that chosen restaurant has it</li>
-                <li>I am on the city, hungru and wold like to eat someting tasty, I want to be sure I picked the best restaurant</li>
-              </ul> 
-            </p>
-          </div>
-          <div class="col p-4 h-100 text-center">
-            <h3 class="my-3">Idea</h3>
-            <p>Foodpath, name bases on idea of footpath -a path for people to walk along.</p>
-            <p>App's name results from the combination of “food” or “path”. </p>
-            <p>Foodpath is a concept for an iOS app designed to provide users with reliable and relatable restaurant recommendations.</p>
-            <p> It is a restaurant curation application that connects good food & people — allowing them to easily recommend a restaurant, get recommendations for any cuisine, and keep track of the places they love to eat.</p>
-          </div>
+        <div class="p-4 h-100 ">
+          <h3 class="my-3 text-center display-6">Concept</h3>
+          <p>Foodpath is a name based on the idea of a footpath - a path for people to walk along. App's name results from the combination of “food” & “path”. Designed to provide users with reliable and relatable restaurant recommendations. This is my passion project. Started to solve my problem, although I did web & user research to check if this is a more common problem for people.</p>
+          <p>
+            The problems I had:<br>
+            <i class="fa-regular fa-square-minus"></i> I'm at a friend's place, we need to order food, it's late, most of the restaurants are closing, but we don't know the neighborhood.<br>
+            <i class="fa-regular fa-square-minus"></i> I'm on a short work trip, in a big city, with many food places; I don't know where I can go, within the walking distance of 5-10 minutes to eat good food now.<br>
+            <i class="fa-regular fa-square-minus"></i> I'm on a weekend private trip: I came for a conference and booked a private apartment, so the fridge is empty and I really need to eat breakfast before I'll go to the event.<br>
+            <i class="fa-regular fa-square-minus"></i> I have a craving for a very specific food, like pancakes & I don't want to look through all the menus to be sure that chosen restaurant has it.<br>
+            <i class="fa-regular fa-square-minus"></i> I am in the city, hungry, and would like to eat something tasty, I want to be sure I picked the best restaurant for it.
+          </p>
         </div>
       </div>
-<!--charts-->
-        <div class="container" id="research">
+
+      <!--charts-->
+      <h2 class="display-4 text-center margin-top">Discovery</h2>
+        <span class="text-center d-block">Learning about user, market & competition</span>
+        <div class="container margin-top" id="research">
           <div class="row align-items-center d-flex align-items-stretch">
             <h3 class="my-3 text-center">Research</h3>
+            <span class="text-center d-block">As my first approach, I created a google form with few questionnaires.<br> 
+            The purpose of this questionnaire is to identify their preferred method of finding a nearby restaurant.<br>
+            150 responses were asked via Google form for data analysis.<br>
+             More than half of the respondents were males (55%).<br> 
+           Respondents were in the age range of 21 to 49 years old.</span>
             <div class="col-md-4 col-sm-12 p-4 h-100">
-              <h4>How are you looking for the restaurants?</h4>
-              <p>50% Google It</p>
-              <p>30% Ask friends or family</p>
-              <p>20% Check dedicated app like Tripadvisor etc</p>
+              <h4>When are you going to the restaurant?</h4>
+              <div class="answer">
+                <div class="square square-lg bg-success" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div>
+                <span> I want a quick meal</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-primary" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div>
+                <span>Social occasion</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-info" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span> Business meeting</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-secondary" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div> 
+                <span>Celebration</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-dark" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div> 
+                <span>I don't want to cook</span>
+              </div>
+            </div><!--end of col-->
+
+            <div class="col-md-4 col-sm-12 p-4 h-100">
+              <h4>How are you looking for the restaurant?</h4>
+              <div class="answer">
+                <div class="square square-lg bg-success" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div> 
+                <span>Recommendations from people I know</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-primary" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div>
+                <span>Google search - online reviews</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-info" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span>Dedicated food apps</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-secondary" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div>
+                <span>Brand popularity/ reputation</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-dark" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div>
+                <span> Advertisement</span>
+              </div>
             </div>
+
+            <div class="col-md-4 col-sm-12 p-4 h-100">
+              <h4>How do you find restaurant when traveling?</h4>
+              <div class="answer">
+                <div class="square square-lg bg-success" style="width: 45%;">
+                  <div class="answer_info">40%</div>
+                </div>
+                <span>Ask around locals</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-primary" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span>Ask traveling friends/ family/ coworkers</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-info" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span> Food blogs</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-secondary" style="width: 15%;">
+                  <div class="answer_info">15%</div>
+                </div>
+                <span> Using Michelin guide</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-dark" style="width: 10%;">
+                  <div class="answer_info">5%</div>
+                </div>
+                <span> Following people on street</span>
+              </div>
+            </div>
+
             <div class="col-md-4 col-sm-12 p-4 h-100">
               <h4>What are you looking for in the restaurant description?</h4>
-              <p>80% Distance</p>
-              <p>60% Type of served cuisine</p>
-              <p>30% Delivery option</p>
-              <p>70& Costs</p>
+              <div class="answer">
+                <div class="square square-lg bg-success" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div>
+                <span> Type of served cuisine</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-primary" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span> Distance/ Location</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-info" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                  <span>Cost</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-secondary" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span> Promotions</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-dark" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div>
+                <span> Delivery option</span>
+              </div>
             </div>
+
             <div class="col-md-4 col-sm-12 p-4 h-100">
               <h4>What decides about the choice?</h4>
-              <p>Food quality</p>
-              <p>Ambience - live music/ comfy&quiet</p>
-              <p>Service - fast&reliable</p>
-              <p>Convinient location</p>
-              <p>Type of cuisine</p>
+              <div class="answer">
+                <div class="square square-lg bg-success" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div>
+                <span>Price</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-primary" style="width: 35%;">
+                  <div class="answer_info">30%</div>
+                </div>
+                <span>Type of cuisine & quality</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-info" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span>Popularity / reputation</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-secondary" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div>
+                <span>Convinient location</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-dark" style="width: 10%;">
+                  <div class="answer_info">5%</div>
+                </div>
+                <span>Promotion</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-warning" style="width: 10%;">
+                  <div class="answer_info">5%</div>
+                </div>
+                <span>Online review</span>
+              </div>
             </div>
-          </div>
-        </div>
 
-<!--sketches-->
-        <div class="container margin-top">
-          <div class="row align-items-center">
-            <div class="col-md-6 col-sm-12 p-4">
-              <h3 class="my-3">Sketches</h3>
-              <ul>
-                <li>I usually start the design process with low fidelity wireframes. This is the way I iterate through many design options quickly.</li>
-                <li>How did your knowledge about your users and their goals influenced your sketches?</li>
-                <li>How many different versions you made?</li>
-                <li>What were the main differences among these versions?</li>
-                <li>Which version did you choose and why?</li>
-                <li>Explain the layout and the arrangement of the elements!</li>
-                <li>Why did you put the elements to a certain place?</li>
-                <li>How did your sketches helped you more forward?</li>
+            <div class="col-md-4 col-sm-12 p-4 h-100">
+              <h4>What type of restaurant do you choose?</h4>
+              <div class="answer">
+                <div class="square square-lg bg-success" style="width: 40%;">
+                  <div class="answer_info">35%</div>
+                </div>
+                <span>Fast casual/Fast food</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-primary" style="width: 25%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span>Casual dining/ low-key</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-info" style="width: 20%;">
+                  <div class="answer_info">20%</div>
+                </div>
+                <span>Cafe/ Coffee-house</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-secondary" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div>
+                <span>Bufet style/ self-serving</span>
+              </div>  
+              <div class="answer">
+                <div class="square square-lg bg-dark" style="width: 15%;">
+                  <div class="answer_info">10%</div>
+                </div>
+                <span>Food truck</span>
+              </div>
+              <div class="answer">
+                <div class="square square-lg bg-warning" style="width: 10%;">
+                  <div class="answer_info">5%</div>
+                </div>
+                <span>Fine dining/ exclusive</span>
+              </div>
+            </div>
+
+            <div class="col h-100">
+              <h3 class="p-0">User pain points</h3>
+              <span>Problems while looking for restaurant:</span>
+              <ul class="m-0 p-0">
+                <li><i class="fa-regular fa-square-minus"></i> I am hungry and have no time to search</li>
+                <li><i class="fa-regular fa-square-minus"></i> I don't know the city/neighbourhood</li>
+                <li><i class="fa-regular fa-square-minus"></i> Outdated information - not existing/closed restaurants</li>
+                <li><i class="fa-regular fa-square-minus"></i> Variety of menu items</li>
+                <li><i class="fa-regular fa-square-minus"></i> My taste is different that other people</li>
+                <li><i class="fa-regular fa-square-minus"></i> Lack of my favourite food</li>
+                <li><i class="fa-regular fa-square-minus"></i> Not trusting in online opinions - companies are paying for reviews</li>
               </ul>
             </div>
-            <div class="col-md-6 col-sm-12 sketches"><img src="images/sketch.jpg" alt="sketchesjpg"></div>
-          </div>
-        </div>
-
-<!--wireframes-->
-        <div class="container margin-top">
-          <div class="row align-items-center">
-            <div class="col-md-6 col-sm-12 wireframes"><img src="images/wirefrm.png" alt="wirframejpg"></div>
-            <div class="col-md-6 col-sm-12">
-              <h3 class="my-3">Wireframes</h3>
-              <h6>At the beginning of my design process I created wireframes for testing purposes.</h6>
-              <ul>
-                <li>Why was it useful to do this?</li>
-                <li>What kind of wireframes did you make?</li>
-                <li>Low fidelity or high fidelity?</li>
-                <li>What tool did you use for this?</li>
-                <li>Did you use them for testing?</li>
-                <li>How many iterations did you have?</li>
+            <div class="col h-100">
+              <h3 class="my-3">Must-Have Restaurant Finder App Features</h3>
+              <ul class="m-0 p-0">
+                <li><i class="fa-regular fa-square-check"></i> Sign Up</li>
+                <li><i class="fa-regular fa-square-check"></i> User Profile</li>
+                <li><i class="fa-regular fa-square-check"></i> Search Option</li>
+                <li><i class="fa-regular fa-square-check"></i> Restaurant Info</li>
+                <li><i class="fa-regular fa-square-check"></i> Menu viewing</li>
+                <li><i class="fa-regular fa-square-check"></i> Special Offers</li>
+                <li><i class="fa-regular fa-square-check"></i> In-app Call</li>
+                <li><i class="fa-regular fa-square-check"></i> Ratings</li>
               </ul>
             </div>
           </div>
-        </div>
 
-<!--userflow-->
+          <!--competition-->
+          <div class="container margin-top margin-bottom text-center">
+            <h3 class="display-6 text-center margin-top margin-bottom">Competition</h3>
+            <div class="row justify-content-between">
+              <div class="col-md-2 col-sm-6">
+                <div class="card box">
+                  <div class="card-img-top h-100"><img src="images/yelp.jpg" alt="yelp"></div>
+                  <div class="card-body">
+                    <h5 class="">Yelp</h5>
+                    <small>Yelp has search for restaurants, fast food, coffee & tea, etc. It has quick categories that pull up the best results near current location, or you can search for something specific, like a type of cuisine. Results appear in order of what's closest to you, and you can view by the default list or a map. Yelp is showing price ranges, menus, and user-submitted photos. Some places allow to order takeout, delivery or make reservations through Yelp.
+                    </small>
 
-        <div class="container margin-top">
-          <h3 class="my-3 text-center">User flow</h3>
-            <div class="col-md-12 col-sm-12 userflow"><img src="images/userflow.png" alt="ufjpg">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="card box">
+                  <div class="card-img-top h-100"><img src="images/zomato.jpg" alt="zomato"></div>
+                  <div class="card-body ">
+                    <h5 class="">Zomato</h5>
+                    <small>
+                      Zomato focuses more on the social aspect. Users can search for restaurants, cafes, pubs by typing in a cuisine or location. Shows an overview, like hours, photos, payment type, menus, and user reviews. All restaurants in Zomato also have a rating, which is between 1-5. Zomato asks to rate visited places, has a "hot and trendy" category.
+                    </small>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="card box">
+                  <div class="card-img-top h-100"><img src="images/zagat.jpg" alt="zagat"></div>
+                  <div class="card-body ">
+                    <h5 class="">Zagat</h5>
+                    <small>
+                      Zagat differentiates itself from the other apps, by only having ratings and reviews that are curated by Zagat editors. When viewing a restaurant, it offers information like an address, hours, menu, rating, and price ranges.
+                    </small>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="card box">
+                  <div class="card-img-top h-100"><img src="images/foursquare.jpg" alt="foursquare"></div>
+                  <div class="card-body ">
+                    <h5 class="">Foursquare</h5>
+                    <small>Foursquare allows user to search for specific restaurants or cuisines. It also gives categories to search on the main screen, like Breakfast, Lunch, and Dinner. Informations like user ratings, photos, and tips left by other users. No menu viewings.
+                      Foursquare displays check-in histories.
+                    </small>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="card box">
+                  <div class="card-img-top h-100"><img src="images/opentable.jpg" alt="opentable"></div>
+                  <div class="card-body ">
+                    <h5 class="">Open table</h5>
+                    <small>OpenTable allows users to check out nearby restaurants, there are curated recommendations based on user dining history. Has a search for specific restaurants by name, by cuisine type or atmosphere. Lets user check the price range, view the overall rating from users, see the menu, read user reviews. The main feature is a possibility to see open time slots for a reservation and book directly within the app.
+                    </small>
+
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-<!--features-->
+            <div class="row p-4"><img src="images/researchch.png" alt="researchsheet"></div>
+          </div>
+          <!--end of competition-->
+
+          <!--user journey-->
+
+          <div class="container margin-top text-center">
+              <h3 class="my-3 display-6 text-center">User journey</h3>
+              <p>
+                I mapped out the users’ steps to see how I could simplify their journey to help them reach their most important goals with the product.
+              </p>
+              <div class="table-responsive-lg row">
+                <table class="table table-bordered border-white w-auto table-fixed table-hover align-middle">
+                  <thead>
+                    <tr>
+                      <th class="th-sm" scope="col"></th>
+                      <th class="th-sm" scope="col">AWARE</th>
+                      <th class="th-sm"  scope="col">SEARCH</th>
+                      <th class="th-sm"  scope="col">ACOMODATION</th>
+                      <th class="th-sm"  scope="col">ON WAY</th>
+                      <th class="th-sm"  scope="col">IN RESTAURANT</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">USER GOAL</th>
+                      <td>Find restaurant quick</td>
+                      <td>Find good restaurant</td>
+                      <td>Find restaurant with good food</td>
+                      <td>Get there quickly</td>
+                      <td>Get good food</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">EMOTIONS</th>
+                      <td>Uncertain <i class="fa-regular fa-face-dizzy"></i></td>
+                      <td>Concerned <i class="fa-regular fa-face-frown-open"></i></td>
+                      <td>Decisive <i class="fa-regular fa-face-grin-beam"></i></td>
+                      <td>Hungry <i class="fa-regular fa-face-flushed"></i></td>
+                      <td>Satisfied <i class="fa-regular fa-face-grin-stars"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">PROBLEMS</th>
+                      <td>To many options</td>
+                      <td>Hard to find something interesting</td>
+                      <td>Fear of finding something good, not sacrificing taste for price</td>
+                      <td>Fear of finding the fast route to the place</td>
+                      <td>Slow service</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">IDEAS</th>
+                      <td>Personalized recommendations based on filter choices/ past visits</td>
+                      <td>Introducing recommended options, updated frequently</td>
+                      <td>Useing filter for more narrow choice</td>
+                      <td>Map showing the journey with direct path and journey time </td>
+                      <td>Menu list and in-app call to contact and preorder food</td>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+
+          <!--userflow-->
+
+          <div class="container margin-top">
+            <div class="row">
+              <h3 class="my-3 display-6 text-center">User flow</h3>
+              <div class="col-md-6 col-sm-12 userflow"><img src="images/fpma/userflow.png" alt="ufjpg">
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div>
+                  After analyzing the research results I started to define the problem.
+                  <ul class="p-0">
+                    <li><i class="fa-solid fa-map-location-dot"></i> Finding the best nearby restaurant.</li>
+                    <li><i class="fa-solid fa-sliders"></i> Filter to narrow the search</li>
+                    <li><i class="fa-solid fa-ranking-star"></i> Analyze all the restaurants around the city.</li>
+                    <li><i class="fa-solid fa-list"></i> List all the restaurants and analysis according to preferences.</li>
+                  </ul>
+                After a narrow down scope and defining the primary goal of the application, I created a flow chart.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sketches-->
           <div class="container margin-top">
             <div class="row align-items-center">
-              <div class="col-md-6 col-sm-12 features"><img src="images/feat.jpg" alt="featjpg"></div>
+              <div class="col-md-6 col-sm-12 p-4">
+                <h3 class="my-3 display-6 text-center">Sketches</h3>
+                <ul class="p-0">
+                  <li>I usually start the design process with low fidelity wireframes.</li>
+                  <li> This is the way I iterate through many design options quickly.</li>
+                  <li>Research knowledge about competition and user preferences allowed me to set up default views.</li>
+                  <li>I made three versions, I thought about the most important & engaging content for the user at the very beginning.</li>
+                  <li>First version had the profile creation at the start, but based on the research it is often the user repelent.</li>
+                  <li>Next versions focused on quick search, like useing GPS, definings food preferences and filtering out the best options.
+                  <li>On every step user have a possibility to change the settings.</li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-sm-12 sketches"><img src="images/fpma/sketch.jpg" alt="sketchesjpg" title="sketches"></div>
+            </div>
+          </div>
+
+          <!--wireframes-->
+          <div class="container margin-top">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-sm-12 wireframes"><img src="images/fpma/wirefrm.png" alt="wirframejpg" title="wireframes"></div>
               <div class="col-md-6 col-sm-12">
-                <h3 class="my-3">Key features</h3>
-                <ul>
-                  <li>Search by location - geolocation-based search provides the option to find the nearest restaurants and create the shortest route to the chosen place</li>
-                  <li>Search by food type</li>
-                  <li>Signup / login</li>
-                  <li>Filtering on the basis of food, type, budget, diet restrictions, distance</li>
-                  <li>Restaurant listing</li>
-                  <li>Restaurant details - rating and menu items with price</li>
-                  <li>Easy direction to the restaurant</li>
+                <h3 class="my-3 display-6 text-center">Wireframes</h3>
+                <p>I created wireframes for user-flow testing purposes.</p>
+                <p>Low fidelity after sketching helped to cleanup the clutter.</p>
+                <p>I iterated three times for the purpose of setting amount of icons and information on one screen.</p>
+                <p>Based on the amount of the elements I decided for hamburger menu instead of bottom menu, because the space at the bottom of the screen is occupied by scrolling and CTA button.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--design-->
+          <div class="container margin-top margin-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-sm-12">
+                <h3 class="my-3 display-6 text-center">UI Design</h3>
+                <p>Smooth, intuitive and clutter-free user interface.</p>
+                <p>I used this style because I wanted clean/ quick to load app without overstimulation, easy to navigate.</p>
+                <p><i class="fa-solid fa-eye"></i> Visual style is minimal with light graphics & no images.</p>
+                <p><i class="fa-solid fa-circle-half-stroke"></i> Light/dark mode</p>
+                <p><i class="fa-solid fa-fingerprint"></i> WCAG finger print target size elements</p>
+                <p>I followed iOS Styleguide:<br>
+                  <i class="fa-solid fa-arrows-to-eye"></i> Helps people focus on primary tasks and content by limiting the number of onscreen controls while making secondary details and actions discoverable with minimal interaction<br>
+                  <i class="fa-solid fa-moon"></i> Adapts seamlessly to appearance changes — Dark Mode — letting people choose the configurations that work best for them.<br>
+                  <i class="fa-solid fa-hand-pointer"></i> Enables interactions that support the way people usually hold their device: controls in reach located in the middle or bottom area of the display, initiates actions in a list row.<br>
+                  <i class="fa-solid fa-map-location-dot"></i> Integrates information - device’s location - to enhance the experience without asking people to enter data.
+                </p>
+                <p>Designed for iOS/ Android phone, desktop support is designed separately
+                  <a href="foodpathpage.html">Foodpath web</a>
+                </p>
+              </div>
+              <div class="col-md-6 col-sm-12 prototype">
+                <img src="images/fpma/Components.png" alt="components" title="components">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <img src="images/fpma/half.png" alt="bothv" title="light/dark mode">
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <h3>Colors</h3>
+                <p>Roles of color in the design is to influence where people look.</p>
+                <p><strong>Yellow</strong> is the most noticeable of all colors to the human eye.</p>
+                <p>Have you ever seen a picture of a bright yellow light bulb or someone’s head while they are thinking & an idea comes to them? Yellow helps unclog our thinking processes.</p>
+                <p>This color is also used in CTA buttons to get attention and focus from the users. It plays an informative role and help users to navigate the app.</p>
+                <p><strong>Gray</strong> implies professionalism and responsibility, technology and modernity.</p>
+                <p>Base is <strong>neumorphism</strong> -it creates a soft visual that stays consistent throughout the entire product.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--user testing-->
+          <div class="container margin-top margin-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-sm-12 prototype"><img src="images/fpma/oldwalk.gif" alt="walktrugif" title="prototype walkthru">
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <h3 class="my-3 display-6 text-center">User Testing</h3>
+                <p>I did a testing round in order to reveal possible usability problems.</p>
+                <ul class="p-0">
+                  <li>What were you aiming to find out with the user tests?</li>
+                  <li>At which phase of the project did you test?</li>
+                  <li>Who were the test subjects? Did they meet the target group?</li>
+                  <li>What method did you use for testing? (Remote, moderated, etc?)</li>
+                  <li>What user insights did you get from the tests?</li>
+                  <li>How these user insights impacted the design or the next version?</li>
                 </ul>
               </div>
             </div>
           </div>
 
- <!--design-->
-            <div class="container margin-top margin-bottom">
-              <div class="row align-items-center">
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="my-3">UI Design</h3>
-                  <h6>Smooth, intuitive and clutter-free user interface.</h6>
-                  <ul>
-                    <li>minimal</li>
-                    <li>light graphics, no images</li>
-                    <li>light/dark mode</li>
-                    <li>quick to load</li>
-                    <li>WCAG finger print target size elements</li>
-                    <li>Guiding Questions:
-
-                      What kind of visual style did you follow? (Fresh, corporate, dark, light?) Visual style: minimal, light graphics, no images, light/dark mode,
-
-                      What inspired you to use this style?
-
-                      Did you follow any guidelines? (Material Design, iOS Styleguide, etc?)
-
-                      What platforms did you design for?
-
-                      Which details really fill you with pride?
-
-                      How does your final design reflect your learnings about your users?
-
-                      How does this design help achieve business or user goals?
-                    </li>
-                  </ul>
+          <!--iterestions-->
+          <div class="container margin-top margin-bottom" id="iterations">
+            <div class="row align-items-top text-center">
+              <h3 class="my-3 display-6 text-center">Iterations</h3>
+              <h6>Changes made after user feedbacks</h6>
+              <div class="col-md-4 col-sm-12">
+                <div class="card">
+                  <div class="foodpathm card-img-top h-100">
+                    <img src="images/fpma/logsin.png" alt="localization" title="login">
+                  </div>
+                  <div class="card-body">
+                    <h3 class="">LOGIN PAGE</h3>
+                    <p><i class="fa-solid fa-align-right"></i> Started with minimal layout - all elements with similar size, color and shape</p>
+                    <p><i class="fa-solid fa-align-center"></i> Using rule 60-30-10 I added accent color, complementary color leaving in dominance the neutral color</p>
+                    <p><i class="fa-solid fa-align-left"></i> Changed the shape of buttons from rectangular to oval for more distinctions between inputs and buttons</p>
+                  </div>
                 </div>
-                <div class="col-md-6 col-sm-12 prototype"><img src="images/walkthru.gif" alt="walktrugif"></div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="card">
+                  <div class="foodpathw card-img-top h-100">
+                    <img src="images/fpma/menushift.png" alt="menushift" title=
+                    "menu change">
+                  </div>
+                  <div class="card-body ">
+                    <h3 class="">MENU OPTION</h3>
+                    <p>Change of the menu access.<br>
+                      Burger menu instead of floating menu - most scroll items & CTA button are at the bottom of the screen, floating menu creates additional chaos and collides with the flow.</p>
+                    <p><i class="fa-solid fa-align-right"></i>Floating menu with icons. Burger menu is an access to login screen. </p>
+                    <p><i class="fa-solid fa-align-center"></i>Full menu with icons appears on the burger menu choice.</p>
+                    <p><i class="fa-solid fa-align-left"></i> No icons menu.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="card">
+                  <div class=" shopest card-img-top h-100">
+                    <img src="images/fpma/craveshift.png" alt="foodchoice" title="choice change">
+                  </div>
+                  <div class="card-body ">
+                    <h3 class="">FOOD SHIFT</h3>
+                    <p>Changing the prefered food choice easier </p>
+                    <p><i class="fa-solid fa-align-right"></i> Food choice is the only icon showing on the screen.</p>
+                    <p><i class="fa-solid fa-align-center"></i>Food shift button is next to the maine choice button.</p>
+                    <p><i class="fa-solid fa-align-left"></i> After clicking the shift button user gets the side scoll menu to choose other options.</p>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
 
- <!--user testing-->
-            <div class="container margin-top margin-bottom">
-              <h3 class="my-3">User Testing</h3>
-              <p>Before launching the product, I did a testing round in order to reveal possible usability problems.</p>
-              <ul>
-                <li>What were you aiming to find out with the user tests?</li>
-                <li>At which phase of the project did you test?</li>
-                <li>Who were the test subjects? Did they meet the target group?</li>
-                <li>What method did you use for testing? (Remote, moderated, etc?)</li>
-                <li>What user insights did you get from the tests?</li>
-                <li>How these user insights impacted the design or the next version?</li>
-              </ul>
-            </div>
+          <!--end of all description-->
 
-<!--end of all description-->
+          <div class="card-body" id="conclusion">
+            <h3 class="display-6 text-center">Conclusion</h3>
 
-          <div class="container">
+            <p>Main idea was to focus on refining core user problem - finding the restaurant.</p>
+            <p>To use basic features, clean and simple user interface, minimalist graphics, avoid visual clutter like pictures, videos or long texts.</p>
+            <p>Third: creating sign-in/user profile. First screen users see in such apps usually offers them to sign up or login if they already have a profile. This usually makes people leave.</p>
+            <p>Next steps to develop in the app:<br>
+              <i class="fa-solid fa-hand-holding-dollar"></i> Special offers that include personalized discounts, coupons & gifts.<br>
+              <i class="fa-solid fa-users"></i> Friends list to communicate with your loved ones and share with them your impressions about restaurants and food.<br>
+              <i class="fa-solid fa-clock-rotate-left"></i> History of your visits, delivered orders and reviews.<br>
+              <i class="fa-solid fa-bookmark"></i> Bookmarks that keep your favorite restaurants and dishes.<br>
+              <i class="fa-solid fa-list-check"></i> Wishlist with every restaurant that you haven’t visited and every dish you haven’t tried but would like to.<br>
+            </p>
+          </div>
+          <div>
 
-            <div class="card-body">
-              <h3>Project Summary</h3>
+            At the end of the case study, briefly summarize the journey that you just took the readers through. What are the key learnings? Was there any step that was particularly challenging?
+          </div>
 
-Describe what the design project is about in a short paragraph. You can outline the product you're designing for, your personal experience that inspired the project, or a client's need to improve on the current design.
-</div>
-<div class="card-body">
-<h3>Problem Statement</h3>
-
-Describe the current problems you have observed in users or from your personal experience. If you have observed the problem from usability testing or data analysis, you can briefly describe the research methods used and the findings.
-</div>
-
-<div class="card-body">
-<h3>User Interviews</h3>
-
-Depending on your outreach method, include a photo of the set up takes the readers with you on the journey of discovering usability insights. For example, perhaps you staked out in front of a coffee shop or emailed a list of customers to schedule phone calls, include a photo of the process. Briefly describe the questions that you asked the users or the task that you asked them to complete.
-</div>
-
-<div class="card-body">
-<h3>Pain Points</h3>
-
-Outline 3 - 5 specific pain points that users encounter while using a product or getting a job done. If you have done usability testing, competitive research or dug through customer feedbacks to distill these pain points, include photos, screenshots or customer quotes.
-</div>
-<div class="card-body">
-<h3>Affinity Mapping</h3>
-
-If you have done affinity mapping exercise, show a photo of the workshop or a simple diagram of the groupings of ideas.
-</div>
-
-<div class="card-body">
-<h3>Personas</h3>
-
-Personas are fictional characters that represent the target users. Their demographic, goals, needs and behaviors are, however, based on real data from user research. If you have created personas for your project, include them so readers can get a relatable snapshot of the users.
-</div>
-
-<div class="card-body">
-<h3>Customer Journey Mapping</h3>
-
-A customer journey map illustrates the different phases in which a customer interacts with the product or service and the organization that creates it. If you have created a customer journey map, include the diagram, briefly describe the categories of information you decided to illustrate, and the design decisions that were influenced by it.
-</div>
-
-<div class="card-body">
-<h3>Design Solutions</h3>
-
-List 3 - 5 design solutions that you have come up with in regards to the particular pain points that you have discovered. Describe the desired outcome of these design solutions briefly. If you have done analysis with a prioritization matrix, include the workshop photo or a diagram.
-</div>
-
-<div class="card-body">
-<h3>User Flow</h3>
-
-A user flow illustrates how the user completes a task within the product or by using a service. It also makes it easy to see how each step relates to others, and the steps that can be eliminated, added or improved. If you have created a user flow, include it and briefly describe which steps you've optimized and why.
-</div>
-
-<div class="card-body">
-<h3>Storyboards</h3>
-
-Storyboarding as an UX tool helps to visualize the user's experience with a product or service. If you have created a storyboard for your project, include the images.
-</div>
-
-<div class="card-body">
-<h3>Sketches</h3>
-
-It is fascinating for the readers to see sketches of your design because it symbolizes the beginning of the solution taking shape. It shows your thinking process and also means that you are capable of quickly iterating ideas with minimal tools. Include a photo of your sketches, or a few sketched screens put together.
-</div>
-
-<div class="card-body">
-<h3>Wireframes</h3>
-
-It is likely that you have worked on the wireframes for the project. Presenting them after the sketches and before the visual designs help illustrate how the design evolves from ideas to real life.
-</div>
-
-<div class="card-body">
-<h3>Visual Design</h3>
-
-Describe design choices such as colors and styles, explain how a particular design solves the user pain point mentioned before, present a few screens together to show user flow or zoom in on details of a specific component.
-</div>
-
-<div class="card-body">
-<h3>Prototype</h3>
-
-You can embed a live prototype or record video clips of essential interactions that you'd like to explain further. Briefly describe the points you wish readers to notice when reviewing the prototype.
-</div>
-
-<div class="card-body">
-<h3>Conclusion</h3>
-
-At the end of the case study, briefly summarize the journey that you just took the readers through. What are the key learnings? Was there any step that was particularly challenging? What are the next steps for this project? Are there ways to contact you if people are interested in talking with you? You can also mention project collaborators here and encourage readers to leave feedback.
-</div>
-
-</div>
+        </div>
 
 
 
-          <!--bottom gallery-->
-      <div class="container margin-top margin-bottom text-center">
+        <!--bottom gallery-->
+        <div class="container margin-top margin-bottom text-center">
 
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="card h-100 box">
-              <div class="foodpathm card-img-top h-100"><img src="images/3views.png" alt="mockupjpg"></div>
-              <div class="card-body">               
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="card h-100 box">
+                <div class="foodpathm card-img-top h-100">
+                  <img src="images/3views.png" alt="mockupjpg" title="mobile view"></div>
+                <div class="card-body">
                   <h3 class="">FOODPATH MOBILE</h3>
                   <p>Restaurant locator app</p>
                   <p><small class="text-muted">2021/22</small></p>
                   <a class="btn page element" href="foodpathapp.html">
                     Show more</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class=" card h-100 box">
-              <div class="foodpathw card-img-top h-100"><img src="images/blog0.png" alt="mockupjpg"></div>
-              <div class="card-body ">
+            <div class="col-md-3 col-sm-6">
+              <div class=" card h-100 box">
+                <div class="foodpathw card-img-top h-100">
+                  <img src="images/blog0.png" alt="mockupjpg" title="foodpath page"></div>
+                <div class="card-body ">
                   <h3 class="">FOODPATH WEBSITE</h3>
                   <p>Website</p>
                   <p><small class="text-muted">2022</small></p>
                   <a class="btn page" href="foodpathpage.html">Show more</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="card h-100 box">
-              <div class=" shopest card-img-top h-100"><img src="images/shopest.png" alt="mockupjpg"></div>
-              <div class="card-body ">
+            <div class="col-md-3 col-sm-6">
+              <div class="card h-100 box">
+                <div class=" shopest card-img-top h-100"><img src="images/shopest.png" alt="mockupjpg" title="shopest page"></div>
+                <div class="card-body ">
                   <h3 class="">SHOPEST WEBSITE</h3>
                   <p>Website Redesign</p>
                   <p><small class="text-muted">2018</small></p>
                   <a class="btn page" href="shopest.html">Show more</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="card h-100 box">
-              <div class="zsp card-img-top h-100"><img src="images/zsp.png" alt="mockupjpg"></div>
-              <div class="card-body ">
+            <div class="col-md-3 col-sm-6">
+              <div class="card h-100 box">
+                <div class="zsp card-img-top h-100"><img src="images/zsp.png" alt="mockupjpg" title="zsp page"></div>
+                <div class="card-body ">
                   <h3 class="">ZSP / WCS WEBSITE</h3>
                   <p>Coding School Website</p>
                   <p><small class="text-muted">2017/18</small></p>
                   <a class="btn page" href="zsp.html">Show more</a>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
+        <!--end of gallery-->
 
-      </div>
-      <!--end of gallery-->
+    </div>
+    <!--end of main container-->
 
-          </div><!--end of main container-->
+    <script>
+      const body = document.body;
+      const documentElement = document.documentElement;
+      const progressBarEl = document.getElementById('progressBar');
 
-          <script>
-            const body = document.body;
-            const documentElement = document.documentElement;
-            const progressBarEl = document.getElementById('progressBar');
+      const scrollTop = () => Math.max(body.scrollTop, documentElement.scrollTop);
+      const handleOnScroll = () => {
+        const scrollAmount = scrollTop() / (documentElement.scrollHeight - documentElement.clientHeight);
+        const scrollPercentage = Math.round(scrollAmount * 100);
 
-            const scrollTop = () => Math.max(body.scrollTop, documentElement.scrollTop);
-            const handleOnScroll = () => {
-              const scrollAmount = scrollTop() / (documentElement.scrollHeight - documentElement.clientHeight);
-              const scrollPercentage = Math.round(scrollAmount * 100);
+        progressBarEl.style.width = `${scrollPercentage}%`
+      };
 
-              progressBarEl.style.width = `${scrollPercentage}%`
-            };
-
-            window.addEventListener('scroll', handleOnScroll);
-
-            
-          </script>
+      window.addEventListener('scroll', handleOnScroll);
+    </script>
   </body>
 
 </html>

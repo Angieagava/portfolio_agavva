@@ -1,11 +1,11 @@
-/*COLORS*/
+/*A-COLORS*/
 
 :root {
     --main-dark-color: #575f6b;
     /*darkgrey*/
     --main-light-color: #e7ebf0;
     /*lightgrey*/
-    --main-accent-color: #8A2BE2;
+    --main-accent-color: #575f6b;
     /*violet*/
     --main-black-color:  #000;
     /*black*/
@@ -19,11 +19,10 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-margin:  5vh;
 }
 
 
-/*CLEARFIX*/
+/*A-CLEARFIX*/
 .row:before,
 .row:after {
     content: "";
@@ -39,14 +38,35 @@ html {
     box-shadow: none!important;
 }
 
-/*BODY*/
+    /*ANIMATION*/
+
+.animations {
+    position: relative;
+    animation: animation 1s ease-out;
+}
+
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        right: -700px;
+    }
+
+    100% {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+    /*BODY*/
 
 body {
     background-position: initial;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    color:  var(--main-dark-color);
 }
+
 
     /*BG ABOUT PAGE*/
 
@@ -56,11 +76,10 @@ body {
 
 .bg1 {
     background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
-}
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(222,168,248,1) 0%, rgba(168,222,248,1) 21.8%, rgba(189,250,205,1) 35.6%, rgba(243,250,189,1) 52.9%, rgba(250,227,189,1) 66.8%, rgba(248,172,172,1) 90%, rgba(254,211,252,1) 99.7% );}
 
     /*BG CASE PAGE*/
+
 .bg2 {
     background-image: linear-gradient(319deg, #ffbd77 0%, #f0f4a4 37%, #acfcd9 100%);
 }
@@ -98,11 +117,27 @@ header {
     background: var(--main-white-color);
 }
 
-/*.accents {
-    color: var(--main-accent-color);
+    /*ANSWER*/
+
+.answer {
+    margin:  .5rem 0;
 }
-*/
-/*DROPDOWN*/
+
+.answer .answer_info {
+    color:  var(--main-white-color);
+    padding:  0.3rem;
+    text-shadow: .5px .5px 1px var(--main-dark-color);
+}
+
+
+    /*BOX*/
+
+.box {
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+
+    /*DROPDOWN*/
 
 .dropdown-menu {
     background: var(--main-white-color);
@@ -137,85 +172,8 @@ header {
 }
 
 
- /*SCROLL*/
 
-#scroll1::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    background-color: var(--main-white-color)!important;
-}
-
-#scroll1::-webkit-scrollbar
-{
-    width: 5px;
-    background-color: var(--main-white-color)!important;
-}
-
-#scroll1::-webkit-scrollbar-thumb
-{
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: var(--main-accent-color);
-}
-
-
-/*PROGRESSBAR*/
-
-#progressBar {
-    position: fixed;
-    bottom: 0;
-    width: 0%;
-    height: 1rem;
-    background: var(--main-accent-color);
-    transition: width 0.2s ease;
-}
-
-/*LOGO*/
-
-.logo1 {
-    font-size: 2rem;
-    text-align: center;
-    display: block;
-    font-weight: 500;
-    color: var(--main-black-color);
-    margin-right: 2rem;
-}
-
-.logo1 img {
-    height: 2.2rem;
-}
-
-.logo2 {
-    text-align: center;
-    display: block;
-    font-weight: 500;
-    color: var(--main-black-color);
-}
-
-.logo2 img {
-    height: 30px;
-}
-
-.role, .tools {
-    text-align: center;
-}
-
-.role p,
-.tools p {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.role img,
-.tools img {
-    margin: 0 auto;
-    display: block;
-    height: 60px;
-}
-
-
-/*BUTTON*/
+    /*BUTTON*/
 
 .btn-group {
     width: 100%;
@@ -225,7 +183,7 @@ header {
 .intro {
     background-color: var(--main-accent-color);
     /*color:  var(--main-dark-color);*/
-    width: 18rem;
+    max-width: 18rem;
     border-radius: 3rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     height: 4rem;
@@ -269,7 +227,7 @@ header {
     font-weight: 500;
     margin: 0 auto;
     padding: 5px 15px;
-    width: 200px;
+    max-width: 200px;
     text-transform: uppercase;
     box-shadow: 0px 15px 15px -10px rgb(163 163 163);
 }
@@ -331,12 +289,41 @@ header {
 }
 
 
-/*CARD*/
+    /*CARD*/
 
 .card {
     border: 1px solid var(--main-white-color);
     border-radius: 0 !important;
 }
+
+    /*CAROUSEL*/
+
+.carousel-control-prev {
+    left: -10%;
+}
+
+.carousel-control-next {
+    right: -10%;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--main-accent-color) !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
+
 
 
 /*LINKS*/
@@ -396,6 +383,48 @@ a.nav-link.food.text-center.activee {
     background: var(--main-accent-color);
 }
 
+    /*LOGO*/
+
+.logo1 {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    color: var(--main-black-color);
+    margin-right: 2rem;
+}
+
+.logo1 img {
+    height: 2.2rem;
+}
+
+.logo2 {
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    color: var(--main-black-color);
+}
+
+.logo2 img {
+    height: 30px;
+}
+
+.role, .tools {
+    text-align: center;
+}
+
+.role p,
+.tools p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.role img,
+.tools img {
+    margin: 0 auto;
+    display: block;
+    height: 60px;
+}
 
 /*MARGINS*/
 
@@ -408,35 +437,6 @@ a.nav-link.food.text-center.activee {
 }
 
 
-/*CAROUSEL*/
-
-.carousel-control-prev {
-    left: -10%;
-}
-
-.carousel-control-next {
-    right: -10%;
-}
-
-.carousel-indicators button.active {
-    background-color: var(--main-accent-color) !important;
-}
-
-@media only screen and (max-width: 767px) {
-    .carousel-indicators {
-        display: none;
-    }
-
-    .carousel-control-prev {
-        left: 0;
-    }
-
-    .carousel-control-next {
-        right: 0;
-    }
-}
-
-
 /*PHOTOS*/
 
 img {
@@ -444,12 +444,13 @@ img {
     overflow:  hidden;
     margin:  0 auto;
 }
-
+/*
 img:hover {
     transition: 0.5s;
     transform: scale(1.5);
     z-index:  1000;
 }
+*/
 
 .about img {
     height: 30px;
@@ -459,25 +460,10 @@ img:hover {
     background: transparent;
     border: 0;
 }
-/*
-.foodpathm img, 
-.foodpathw img,
-.shopest img,
-.zsp img, 
-.prototype img,
-.features img,
-.sketches img,
-.wireframes img
-{
-    max-width:  100%;
-    overflow:  hidden;
-    margin:  0 auto;
-}
 
-*/
 .mypic {
     background: lightgrey;
-    background: url(images/me/mee.svg);
+    background: url(images/me/mint2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -501,34 +487,52 @@ img:hover {
     line-height:  2.2rem;
 }
 
-/*ANIMATION*/
+.overview img {
+    height:  auto;
+    width:  100vw;
+}
 
-.animations {
-    position: relative;
-    animation: animation 1s ease-out;
+    /*PROGRESSBAR*/
+
+#progressBar {
+    position: fixed;
+    bottom: 0;
+    width: 0%;
+    height: 1rem;
+    background: var(--main-accent-color);
+    transition: width 0.2s ease;
+}
+
+    /*SCROLL*/
+
+#scroll1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: var(--main-white-color)!important;
+}
+
+#scroll1::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: var(--main-white-color)!important;
+}
+
+#scroll1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--main-accent-color);
+}
+
+    /*TABLE*/
+.table {
+    font-size:  0.5rem;
 }
 
 
-@keyframes animation {
-    0% {
-        opacity: 0;
-        right: -700px;
-    }
 
-    100% {
-        opacity: 1;
-        right: 0;
-    }
-}
-
-    /*BOX*/
-
-.box {
-  box-shadow: 0 10px 10px rgba(0,0,0,.1);
-}
-
-
-/*TRACKING*/
+    /*TRACKING*/
 
 .tracking-in-expand {
     -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -566,7 +570,7 @@ img:hover {
 }
 
 
-/*TIMELINE*/
+    /*TIMELINE*/
 
 .main-timeline .description {
     text-align: initial;
@@ -837,7 +841,7 @@ img:hover {
 }
 
 
-/*TIMELINE*/
+    /*TIMELINE2*/
 
 .stepper-wrapper {
     margin-top: auto;
