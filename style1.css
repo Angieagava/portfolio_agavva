@@ -433,7 +433,7 @@ a.nav-link.food.text-center.activee {
 .tools img {
     margin: 0 auto;
     display: block;
-    height: 60px;
+    height: 2.5rem;
 }
 
 /*MARGINS*/
@@ -746,9 +746,9 @@ img:hover {
 }
 
 .main-timeline .title {
-    font-size: 2rem;
+    /*font-size: 2rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 24px;*/
     margin: 0 0 15px 0;
 }
 
@@ -783,7 +783,7 @@ img:hover {
     }
 
     .main-timeline .title {
-        font-size: 17px;
+       /* font-size: 17px;*/
     }
 
     .main-timeline .timeline:nth-child(2n) .timeline-content {
@@ -848,6 +848,7 @@ img:hover {
     .main-timeline .title {
         margin-bottom: 10px;
     }
+
 }
 
 
