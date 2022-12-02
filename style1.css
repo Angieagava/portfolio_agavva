@@ -959,6 +959,15 @@ img:hover {
     .overlay {
         margin: 0;
     }
+
+    .stepper-wrapper {
+        display: block;
+    }
+
+    .stepper-item.completed::after {
+        position: initial;
+        border: 0;
+    }
 }
 
 @keyframes rotate {
