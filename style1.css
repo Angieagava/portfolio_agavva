@@ -966,6 +966,10 @@ img:hover {
 
 @media only screen and (max-width: 767px) {
 
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+
     .mynamenav {
     display: none;
 }
