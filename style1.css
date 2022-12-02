@@ -166,6 +166,15 @@ header {
     line-height: 3rem;
 }
 
+.mynamenav, .mynamenav1 {
+    height: 2rem; 
+    margin: 0 1rem;
+}
+
+.mynamenav {
+    display: none;
+}
+
 
 
 .step:hover {
@@ -826,7 +835,7 @@ img:hover {
     }
 
     .main-timeline .year {
-        font-size: 24px;
+        font-size: 1rem;
     }
 
     .main-timeline .timeline-content,
@@ -956,6 +965,14 @@ img:hover {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .mynamenav {
+    display: none;
+}
+
+    .mynamenav1 {
+    display: block;
+}
     .overlay {
         margin: 0;
     }
