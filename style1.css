@@ -309,11 +309,11 @@ header {
     /*CAROUSEL*/
 
 .carousel-control-prev {
-    left: -10%;
+    left: 0;
 }
 
 .carousel-control-next {
-    right: -10%;
+    right: 0;
 }
 
 .carousel-indicators button.active {
@@ -879,7 +879,7 @@ img:hover {
     align-items: center;
     width: 4rem;
     height: 4rem;
-    background: var(--main-dark-color);
+    background: var(--main-black-color);
     margin-bottom: 6px;
 }
 
@@ -888,14 +888,14 @@ img:hover {
 }
 
 .stepper-item.completed .step-counter {
-    border: 2px solid var(--main-dark-color);
+    border: 2px solid var(--main-black-color);
     background: #fdfbfb;
 }
 
 .stepper-item.completed::after {
     position: absolute;
     content: "";
-    border-bottom: 64px dotted var(--main-dark-color);
+    border-bottom: 64px dotted var(--main-black-color);
     width: 100%;
     top: 0;
     left: 50%;
@@ -971,11 +971,11 @@ img:hover {
     }
 
     .mynamenav {
-    display: none;
+        display: none;
 }
 
     .mynamenav1 {
-    display: block;
+        display: block;
 }
     .overlay {
         margin: 0;
@@ -996,3 +996,4 @@ img:hover {
         transform: rotate(1turn);
     }
 }
+
