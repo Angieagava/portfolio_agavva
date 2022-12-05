@@ -297,7 +297,9 @@ header {
     padding: 1rem;
     border: 1px solid #ffffff4f;
 }
-
+.main_carousel {
+    height: 100vh;
+}
 
     /*CARD*/
 
