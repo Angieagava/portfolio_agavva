@@ -8,6 +8,7 @@
 <!--font-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
       <link rel="icon" type="image/x-icon" href="images/xx.ico">
 <!--bootstrap-->
@@ -23,7 +24,7 @@
       <script src="script.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
    </head>
-   <body class="d-flex h-100 m-0" >
+   <body class="d-flex h-100 m-0 bg5">
       <div class="container-fluid p-0">
 <!--header-->
          <header class="sticky-top">
@@ -73,7 +74,7 @@
         </div>
   <!--beta nav-->
             <div>
-               <nav class="btn-group flex-wrap d-flex justify-content-between px-2 stickynav">
+               <nav class="btn-group flex-wrap d-flex justify-content-between stickynav">
                   <div class="dropdown text-center">
                      <button class="btn logo2 dropdown-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                      <img src="images/zsp.ico" alt="logo">ZSP / WCS
@@ -100,12 +101,12 @@
             <div id="progressBar"></div>
          </header>
 <!--end of header-->      
-         <div id="introduction" class="margin-top margin-bottom"></div>
+         <div id="introduction"></div>
 <!--entry-->
-         <div class="container margin-top margin-bottom text-center">
+         <div class="container-fluid margin-bottom text-center">
 <!--about-->
             <div class="row align-items-center">
-               <div class="col-md-6 col-sm-12">
+               <div class="col-md-4 mx-auto col-sm-12">
                   <main class="px-3">
                      <h1 class="display-2">ZSP / WCS </h1>
                      <h2 class="display-6">Coding School Webpage</h2>
@@ -115,73 +116,39 @@
                      </p>
                   </main>
                </div>
-               <div class="col-md-5 col-sm-12 zsp"><img src="images/zsp/alldevices.png" alt="zsppng"></div>
+               <div class="col-md-7 mx-auto col-sm-12 zsp"><img src="images/zsp/alldevices.png" alt="zsppng"></div>
             </div>
          </div>
  <!-- overview -->
 
-      <div class="container overview margin-top margin-bottom text-center">
+      <div class="container-fluid overview margin-top margin-bottom text-center">
         <h3 class="text-center my-4 display-6">Overview</h3>
-        <p>Description <br></p>
+        <div class="col-md-6 mx-auto">
+           <p>Description :
+               Landing pages are created for a specific business purpose: get more users, 
+               increase sales of the product. Landing pages are the best way to promote your product or service.</p>
+           <p>I listed the most important elements a landing page must-have:</p>
+            <ul>
+               <li>Clear Call-to-Action (CTA).</li>
+               <li>Have only one conversion goal like increasing course sales. </li>
+               <li>Provide testimonials to support the credibility of the business.</li>
+               <li>Include benefits the courses are providing.</li>
+            </ul>
+               <p>
+               Project details
+               Business goal — increase course sales.
+               Conversion goal — the visitors click on the CTA to sign up for the course.
+               Understand the users — the age group between 18–30 tend to have more stress, anxieties, and depression.</p>
+         </div>
         <div class="row">
-          <div class="col p-4"><img src="images/zsp/zspmbl.png" alt="mobile"></div>
-          <div class="col"><img src="images/zsp/zspweb.png" alt="webpage"></div>
-      </div>
-      </div>
-<!--role-->
-         <div class="container margin-top role text-center">
-<!--role-->
-            <div class="row align-items-center ">
-               <h3 class="text-center my-4 display-6">My role</h3>
-               <div class="col align-self-baseline">
-                  <img src="images/research.svg" alt="reserachicon">
-                  <p>Research</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/wireframee.svg" alt="wireframeicon">
-                  <p>Wireframe</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/flow.svg" alt="flowicon">
-                  <p>User flow</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/design.svg" alt="designicon">
-                  <p>Design</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/prototype.svg" alt="proticon">
-                  <p>Prototype</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/coding.svg" alt="codeicon">
-                  <p>Coding</p>
-               </div>
-            </div>
+          <div class="col zspdevice"><img src="images/zsp/zspweb.png" alt="webpage"></div>
+          <div class="col zspdevice p-4"><img src="images/zsp/zspmbl1.png" alt="mobile"></div>
          </div>
- <!--tools-->
-         <div class="container margin-top tools text-center">
-<!--tools-->
-            <div class="row align-items-center ">
-               <h3 class="text-center my-4 display-6">Used tools</h3>
-               <div class="col align-self-baseline">
-                  <img src="images/asana.png" alt="asanaicon">
-                  <p>Asana</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/photoshop.png" alt="psicon">
-                  <p>Photoshop</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/illustrator.png" alt='aiicon'>
-                  <p>Illustrator</p>
-               </div>
-               <div class="col align-self-baseline">
-                  <img src="images/sublime.png" alt="sublimeicon">
-                  <p>Sublime text</p>
-               </div>
-            </div>
-         </div>
+        <div class="row">
+          <div class="col-md-12"><img src="images/zsp/zspmobileh.png" alt="mobilephone" title="mobile view" ></div>
+        </div>
+      </div>
+
 <!--timeline-->
          <div id="process" class="margin-top margin-bottom"></div>
  <!--process-->
@@ -210,19 +177,99 @@
                </div>
             </div>
          </div>
-
-         <div class="container">
-           <div class="row">
-             <div class="col"><img src="images/zsp/mobileall.jpg" alt="" title="" ></div>
-             <div class="col">Description</div>
-           </div>
+         <!--company-->
+        <div class="container margin-top company">
+          <div class="row">
+            <div class="col-md-5 mx-auto col-sm-12 description_app">
+              <h5 class="display-6">About Infoshare Academy:</h5>
+                <p> The company's platform organizes programming courses from scratch for people who want to change the industry and start a career in the IT industry:</p> 
+                <p><i class="fa-solid fa-magnifying-glass"></i> searchable, </p>
+                <p><i class="fa-solid fa-flag"></i> discoverable, </p>
+                <p><i class="fa-solid fa-shop"></i> shoppable on-demand,</p> 
+                <p><i class="fa-solid fa-face-grin-stars"></i> enabling people to find the clothes they love,</p> 
+                <p><i class="fa-solid fa-calendar-plus"></i> programming courses from scratch</p>
+                <p>Infoshare organizes programming courses from scratch for people who want to change the industry and start a career in the IT industry. 
+                Prepares people for work in the best technology companies and helps find employment after the course.
+                During programming courses, tehy organize meetings with employers who can hire selected future developers for their company.</p>
+            </div>
+            <div class="col-md-5 mx-auto col-sm-12 team">
+              <h5 class="display-6">Company details:</h5>
+              <p> One of the largest and oldest IT academies in Poland.</p>
+              <p><img src="images/zsp/infosharelogo.svg" alt="logo" style="height: 20px;"> Name: Infoshare Academy,</p> 
+              <p><i class="fa-solid fa-location-dot"></i> Headquaters: Gdańsk, Poland,</p>
+              <p><i class="fa-solid fa-people-group"></i> 150-200 people,</p>
+              <p><i class="fa-solid fa-building"></i> Training and coaching,</p>
+              <p><i class="fa-solid fa-industry"></i> Industries: Education, Technology, Job placement, </p>
+              <p><i class="fa-solid fa-users-viewfinder"></i> Target audience: 20-50 yo self-education enthusiasts, people on the carreer crossroads.</p>
+            </div>
+          </div>
+        </div>
+<!--role-->
+         <div class="container margin-top margin-bottom role text-center">
+            <div class="row align-items-center ">
+               <div class="col-md-6">
+               <h3 class="text-center my-4 display-6">My role</h3>
+               <div class="row">
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/research.svg" alt="reserachicon">
+                     <p>Research</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/wireframee.svg" alt="wireframeicon">
+                     <p>Wireframe</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/flow.svg" alt="flowicon">
+                     <p>User flow</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/design.svg" alt="designicon">
+                     <p>Design</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/prototype.svg" alt="proticon">
+                     <p>Prototype</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/coding.svg" alt="codeicon">
+                     <p>Coding</p>
+                  </div>
+               </div>
+            </div>
+<!--tools-->
+            <div class="col-md-6 align-items-center tools">
+               <div class="row">
+                  <h3 class="text-center my-4 display-6">Used tools</h3>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/asana.png" alt="asanaicon">
+                     <p>Asana</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/photoshop.png" alt="psicon">
+                     <p>Photoshop</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/illustrator.png" alt='aiicon'>
+                     <p>Illustrator</p>
+                  </div>
+                  <div class="col align-self-baseline py-2">
+                     <img src="images/sublime.png" alt="sublimeicon">
+                     <p>Sublime text</p>
+                  </div>
+               </div>
+            </div>
          </div>
+      </div>
 
 <!--process-->
          <div class="container">
             <div class="card-body">
                <h3 class="display-6">Project Summary</h3>
-               Describe what the design project is about in a short paragraph. You can outline the product you're designing for, your personal experience that inspired the project, or a client's need to improve on the current design.
+               This project was created as a start for new cooperation - coding school.
+               Joint venture between Infoshare company form Gdańsk and Netcamp IT foundation.
+               I took part in similar bootcamp and this knowledge helped me in designing key elements in this layout.
+               We decided not to use existing brand ID, but to create fresh one, more integrated with local one.
+               Floating Gardens....
             </div>
             <div class="card-body">
                <h3 class="display-6">Problem Statement</h3>
