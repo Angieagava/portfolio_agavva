@@ -274,20 +274,22 @@ header {
     background-color: transparent;
     color:  var(--main-dark-color);
     border-radius: 3rem;
-    border: 1px solid transparent;
+    border: 1px solid rgba(66, 66, 90, 1);
     display: block;
     font-weight: 500;
     margin: 0 auto;
     padding: 5px 15px;
     max-width: 200px;
     text-transform: uppercase;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.1);
+    box-shadow: 3px 3px 0px 3px rgba(66, 66, 90, 1);
 }
 
 .page:hover {
     background-color: var(--main-white-color);
     color: var(--main-accent-color);
     border:  1px solid var(--main-accent-color);
+    transform: perspective(500px) translate(-2px, -2px);
+    transition: all 0.5s ease-out 0s;
 }
 
 .btn-primary {
@@ -395,6 +397,8 @@ header {
 
 
 /*LINKS*/
+
+scroll-margin-top: -20%;
 
 a,
 li {
