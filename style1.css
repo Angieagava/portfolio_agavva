@@ -1030,13 +1030,12 @@ img {
         margin: 0;
     }
 
-    .stepper-wrapper {
-        display: block;
+    .stepper-item .step-name {
+    font-size: .7rem;
     }
-
-    .stepper-item.completed::after {
-        position: initial;
-        border: 0;
+    .stepper-item .step-counter {
+    width: 3rem;
+    height: 3rem;
     }
 }
 
