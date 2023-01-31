@@ -380,6 +380,13 @@ header {
     background-color: var(--main-accent-color) !important;
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: revert-layer;
+    height: 100vh;
+}
+
 @media only screen and (max-width: 767px) {
     .carousel-indicators {
         display: none;
