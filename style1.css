@@ -111,46 +111,7 @@ a.dropdown-item:hover {
 }
 
 
-    /*BG ABOUT PAGE
 
-.bg0 {
-    background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
-}   
-
-.bg1 {
-    background: #FFEFBA;  /* fallback for old browsers */
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(222,168,248,1) 0%, rgba(168,222,248,1) 21.8%, rgba(189,250,205,1) 35.6%, rgba(243,250,189,1) 52.9%, rgba(250,227,189,1) 66.8%, rgba(248,172,172,1) 90%, rgba(254,211,252,1) 99.7% );}
-
-    /*BG CASE PAGE*/
-
-.bg2 {
-    background-image: linear-gradient(319deg, #ffbd77 0%, #f0f4a4 37%, #acfcd9 100%);
-}
-
-.bg3 {
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-}
-
-.bg4 {
-    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-}
-
-.bg5 {
-background: #ffe259;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-.bg6 {
-background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
-
-}
-
-.bg7 {
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-}
-*/
 
 p {
     font-size: 1.1rem;
